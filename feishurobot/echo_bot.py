@@ -2,9 +2,8 @@
 # --coding:utf-8--
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from os import path
 import json
-from urllib import request, parse
+from urllib import request
 
 APP_ID = "cli_a14ee8f2da39900d"
 APP_SECRET = "hjXmlHIUdOVQ0eLwENmledUpJtYDDXKd"
