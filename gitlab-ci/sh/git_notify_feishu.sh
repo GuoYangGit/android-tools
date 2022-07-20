@@ -16,75 +16,72 @@ qrFileName="qr.png"
 webhook="https://open.feishu.cn/open-apis/bot/v2/hook/460cd03a-8d76-4b35-9862-96ae74d7c59b"
 
 #获取飞书上传图片所需的token
-getToken(){
-    res=$(curl -X POST 'https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal' \
-	-H 'content-type:application/json; charset=utf-8' \
-	-d '{
+getToken() {
+  res=$(curl -X POST 'https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal' \
+    -H 'content-type:application/json; charset=utf-8' \
+    -d '{
 		"app_id": "cli_a139d7414238100d",
 		"app_secret": "IdVKGxBJM3DWuKjSDEsHyeOyx4kcoSoH"
-	}' )
-	# 截取 "tenant_access_token":" 右侧字符
-	temp1=${res##*\"tenant_access_token\":\"}
-	# 截取”左侧字符  最终获得了token
-	echo ${temp1%%\"*}
+	}')
+  # 截取"tenant_access_token":"右侧字符
+  temp1=${res##*"\"tenant_access_token\":\""}
+  # 截取"左侧字符,最终获得了token
+  echo ${temp1%%"\""*}
 }
 # 获取apkname 遍历了路径中以.apk结尾的文件
-getApknameFromReleasePath(){
-	paramReleasePath=$1
-	allFile=`ls $paramReleasePath`
-	releaseFileArray=(${allFile// / })
-	apkName=""
-	for filename in ${releaseFileArray[@]}
-	do
-		if [[ $filename =~ ".apk" ]]
-		then
-		apkName=$filename
-		fi
-	done
-	echo $apkName
+getApknameFromReleasePath() {
+  paramReleasePath=$1
+  allFile=$(ls $paramReleasePath)
+  releaseFileArray=(${allFile// / })
+  apkName=""
+  for filename in ${releaseFileArray[@]}; do
+    if [[ $filename =~ ".apk" ]]; then
+      apkName=$filename
+    fi
+  done
+  echo $apkName
 }
 
 # ！！！！根据文件名字获取版本号 这里是按一定的规则去做匹配，需要查看项目打出来的包是否符合此规则，不符合请自行修改一下
-getVersionCodeFromApkname(){
-	# 获取了外部传进来的apkname   fancyme传进来的是 FancyMe_2021.12.29_3.6.0_8348.production_fancyMeLocalDevelop.apk
-	paramApkname=$1
-	# 这里截取了.production左侧的所有字符并保存 即 FancyMe_2021.12.29_3.6.0_8348
-	versionCodeTemp=${paramApkname%%.production*}
-	# 这里截取了最后一个 _ 右侧的所有字符 即 8348
-	echo ${versionCodeTemp##*_}
+getVersionCodeFromApkname() {
+  # 获取了外部传进来的apkname   fancyme传进来的是 FancyMe_2021.12.29_3.6.0_8348.production_fancyMeLocalDevelop.apk
+  paramApkname=$1
+  # 这里截取了.production左侧的所有字符并保存 即 FancyMe_2021.12.29_3.6.0_8348
+  versionCodeTemp=${paramApkname%%.production*}
+  # 这里截取了最后一个 _ 右侧的所有字符 即 8348
+  echo ${versionCodeTemp##*_}
 }
 
 # ！！！！根据文件名字获取版本名 这里是按一定的规则去做匹配，需要查看项目打出来的包是否符合此规则，不符合请自行修改一下
-getVersionNameFromApkname(){
-	# 获取了外部传进来的apkname   fancyme传进来的是 FancyMe_2021.12.29_3.6.0_8348.production_fancyMeLocalDevelop.apk
-	paramApkname=$1
-	# 获取了外部传进来的版本号 即上面的8348
-	paramVersionCode=$2
-	# 截取了 _8384左侧的所有字符 即FancyMe_2021.12.29_3.6.0
-	versionNameTemp=$(eval echo '$'"{paramApkname%%_$paramVersionCode*}")
-	# 截取了最后一个 _ 符号右侧所有的字符 即3.6.0
-	echo ${versionNameTemp##*_}
+getVersionNameFromApkname() {
+  # 获取了外部传进来的apkname   fancyme传进来的是 FancyMe_2021.12.29_3.6.0_8348.production_fancyMeLocalDevelop.apk
+  paramApkname=$1
+  # 获取了外部传进来的版本号 即上面的8348
+  paramVersionCode=$2
+  # 截取了 _8384左侧的所有字符 即FancyMe_2021.12.29_3.6.0
+  versionNameTemp=$(eval echo '$'"{paramApkname%%_$paramVersionCode*}")
+  # 截取了最后一个 _ 符号右侧所有的字符 即3.6.0
+  echo ${versionNameTemp##*_}
 }
 
 # 上传二维码到飞书
-getImageKey(){
-	res=$(curl --header POST 'content-type:multipart/form-data' \
-	--header "Authorization:Bearer $token" \
-	'https://open.feishu.cn/open-apis/image/v4/put/' \
-	--form 'image_type="message"' \
-	--form "image=@$qrFilePath")
-	# 截取 "image_key":" 右侧字符
-	temp1=${res##*\"image_key\":\"}
-	# 截取”左侧字符  最终获得了token
-	echo ${temp1%%\"*}
+getImageKey() {
+  res=$(curl --header POST 'content-type:multipart/form-data' \
+    --header "Authorization:Bearer $token" \
+    'https://open.feishu.cn/open-apis/image/v4/put/' \
+    --form 'image_type="message"' \
+    --form "image=@$qrFilePath")
+  # 截取 "image_key":" 右侧字符
+  temp1=${res##*"\"image_key\":\""}
+  # 截取”左侧字符  最终获得了token
+  echo ${temp1%%\"*}
 }
-
 
 # ---------------- 生成二维码、一些必要参数的组合----------------
 token=$(getToken)
 buildDirPath=$gitProjectPath"/build"
 apkDirPaht=$buildDirPath"/outputs/apk"
-flavor=`ls $apkDirPaht`
+flavor=$(ls $apkDirPaht)
 flavorPath=$apkDirPaht"/"$flavor
 releaseType="release"
 releasePath=$flavorPath"/"$releaseType
@@ -104,13 +101,13 @@ cd $gitProjectPath
 # 因为之前编译了项目所以应该fetch过了，不要再fetch了防止在这期间又有提交
 # git fetch
 # 获取上次打印过的commitId
-lastCommitId=`cat $lastCommitIdFilePath`
+lastCommitId=$(cat $lastCommitIdFilePath)
 # 获取当前的commitid
-currentCommitId=`git rev-parse HEAD`
+currentCommitId=$(git rev-parse HEAD)
 echo 当前commitId:$currentCommitId
 echo 上次记录的commitId:$lastCommitId
 # 获取这两次提交之间的变更说明
-gitLog=`git log $lastCommitId..$currentCommitId --pretty=format:"%s\t%cn#"`
+gitLog=$(git log $lastCommitId..$currentCommitId --pretty=format:"%s\t%cn#")
 # 把中文冒号换成英文的
 gitLog=${gitLog//：/:}
 #按#进行了分割
@@ -118,26 +115,23 @@ array=(${gitLog//#/ })
 changeResult=""
 index=1
 #开始遍历
-for var in ${array[@]}
-do
-    if [[ $var =~ "]:" ]]
-    then
-        #按#进行了分割
-        tempArray=(${var//"]:"/ })
-        if [ ${#tempArray[@]} == 2 ]
-        then
-        nextChange="$index"、"${tempArray[1]}\n"
-        echo $nextChange
-        changeResult=$changeResult$nextChange
-        index=`expr $index + 1`
-        fi
+for var in ${array[@]}; do
+  if [[ $var =~ "]:" ]]; then
+    #按#进行了分割
+    tempArray=(${var//"]:"/ })
+    if [ ${#tempArray[@]} == 2 ]; then
+      nextChange="$index"、"${tempArray[1]}\n"
+      echo $nextChange
+      changeResult=$changeResult$nextChange
+      index=$(expr $index + 1)
     fi
+  fi
 done
 
 # ---------------- 发送飞书-------------------
 url=$webhook
-curl -X POST -H "Content-Type: application/json"  \
-    -d '{
+curl -X POST -H "Content-Type: application/json" \
+  -d '{
         "msg_type": "post",
         "content": {
             "post": {
@@ -172,7 +166,7 @@ curl -X POST -H "Content-Type: application/json"  \
             }
         }
     }' \
-    $url
+  $url
 
 # 把本次的打印完成的commitId添加到文件中
-echo $currentCommitId > $lastCommitIdFilePath
+echo $currentCommitId >$lastCommitIdFilePath
