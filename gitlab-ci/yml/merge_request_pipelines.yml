@@ -1,0 +1,29 @@
+# 构建项目
+build-merge:
+    stage: build-merge
+    script: 
+        - echo "build-merge start"
+        - ./gradlew clean
+        - ./gradlew assembleBeepmeLocalDevelopRelease
+    rules:
+        - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+
+# 成功通知
+notify-merge-success:
+    stage: notify-merge-success
+    script:
+        - echo "notify-merge-success start"
+        - curl -X POST -H "Content-Type:application/json" -d "{\"msg_type\":\"post\",\"content\":{\"post\":{\"zh_cn\":{\"title\":\"Lamour-Android合并分支\",\"content\":[[{\"tag\":\"text\",\"text\":\"项目构建通过，可以进行分支合并了\n\"},{\"tag\":\"a\",\"text\":\"链接地址\n\",\"href\":\"$CI_MERGE_REQUEST_PROJECT_URL/-/merge_requests/$CI_MERGE_REQUEST_IID\"},{\"tag\":\"at\",\"user_id\":\"$atFeishuUid\",\"text\":\"$GITLAB_USER_NAME\n\"}]]}}}}" $feishuWebHook
+    rules:
+        - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+          when: on_success
+
+# 失败通知
+notify-merge-fail:
+    stage: notify-merge-fail
+    script:
+        - echo "notify-merge-fail start"
+        - curl -X POST -H "Content-Type:application/json" -d "{\"msg_type\":\"post\",\"content\":{\"post\":{\"zh_cn\":{\"title\":\"Lamour-Android合并分支\",\"content\":[[{\"tag\":\"text\",\"text\":\"项目构建失败，请检查代码\n\"},{\"tag\":\"at\",\"user_id\":\"$atFeishuUid\",\"text\":\"$GITLAB_USER_NAME\n\"}]]}}}}" $feishuWebHook
+    rules:
+        - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+          when: on_failure

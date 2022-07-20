@@ -1,0 +1,43 @@
+# 定义构建变量
+variables:
+    # 飞书机器人的WebHook地址
+    feishuWebHook: "https://open.feishu.cn/open-apis/bot/v2/hook/460cd03a-8d76-4b35-9862-96ae74d7c59b"
+    # 需要@人的飞书UID
+    atFeishuUid: ""
+    # 项目地址
+    gitProjectPath: "/Users/axl/AndroidStudioProjects/NewPengPeng/app"
+    # 需要打包的git分支
+    gitBranch: "先不用打包功能"
+
+# 定义构建前期阶段
+before_script:
+    - cd $gitProjectPath
+    - ls
+    - git fetch
+    - git checkout $CI_COMMIT_BRANCH
+    - git pull
+    - chmod +x ./gradlew
+    # 输出全局变量
+#    - export
+    - |
+        if [ $GITLAB_USER_NAME == "郭杨" ]
+        then
+            echo "郭杨，您好！"
+            atFeishuUid="6949042068928856065"
+        elif [ $GITLAB_USER_NAME == "周咏龙" ]
+        then
+            echo "周咏龙，您好！"
+            atFeishuUid="6663393582621131016"
+        fi
+
+# 定义构建阶段
+stages:
+    - build-merge
+    - notify-merge-success
+    - notify-merge-fail
+    - build-push
+    - notify-push
+
+include:
+    - /yml/merge_request_pipelines.yml
+    - /yml/push_pipelines.yml

@@ -1,0 +1,23 @@
+# 构建项目
+build-push:
+    stage: build-push
+    script:
+        - echo "build-push start"
+        - cd /Users/axl/Desktop/packageShell
+        - ls
+        - sh Lamour_release.sh
+    rules:
+        - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $gitBranch
+
+# 成功通知
+notify-push:
+    stage: notify-push
+    script:
+        - echo "notify-push start"
+        - cd $gitProjectPath
+        - cd sh
+        - ls
+        - sh git_notify_feishu.sh
+    rules:
+        - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == $gitBranch
+          when: on_success
