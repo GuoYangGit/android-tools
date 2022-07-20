@@ -4,7 +4,7 @@
 @contact: guoyang_add@163.com
 @file: send_fir.py
 @time: 2019/1/9 5:52 PM
-@desc:
+@desc: 打包上传到fir
 """
 import os
 import platform
@@ -99,8 +99,7 @@ def getApkInfo(apkPath):
     apkInfo = os.popen(sdkBuildToolPath + getBackslash() + "aapt d badging " + apkPath).read()
     print('获取apk信息为:' + apkInfo)
     data = {}
-    match = re.compile(
-        "package: name='(\S+)' versionCode='(\d+)' versionName='(\S+)'").match(apkInfo)
+    match = re.compile("package: name='(\S+)' versionCode='(\d+)' versionName='(\S+)'").match(apkInfo)
     data['version'] = match.group(3)
     data['build'] = match.group(2)
     return data
