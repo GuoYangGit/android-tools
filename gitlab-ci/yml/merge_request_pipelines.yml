@@ -4,7 +4,7 @@ build-merge:
     script: 
         - echo "build-merge start"
         - ./gradlew clean
-        - ./gradlew assembleBeepmeLocalDevelopRelease
+        - ./gradlew assembleRelease
     rules:
         - if: $CI_PIPELINE_SOURCE == "merge_request_event"
 

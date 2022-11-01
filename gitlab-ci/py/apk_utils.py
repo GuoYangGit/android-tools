@@ -11,16 +11,16 @@ import os
 import re
 import subprocess
 import fir
+import constant
 
-# TODO 这里需要根据自己项目进行改写
 # 项目路径
-project_path = "/Users/yangguo/HuafangProject/slogan"
+project_path = constant.project_path
 # apk路径
-apk_path = "/app/build/outputs/apk/release"
+apk_path = constant.apk_path
 # buildTool路径
-build_tool_path = "/Users/yangguo/Library/Android/sdk/build-tools/30.0.3"
+build_tool_path = constant.build_tool_path
 # AppName
-apk_name = 'slogan'
+apk_name = constant.apk_name
 
 
 # 获取Apk路径

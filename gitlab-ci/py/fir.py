@@ -11,12 +11,13 @@
 import requests
 import urllib3
 import apk_utils
+import constant
 from urllib3.exceptions import InsecureRequestWarning
 
 # TODO 这里需要根据自己项目进行改写
-fir_bundle_id = 'com.huafang.slogan'
+fir_bundle_id = constant.fir_bundle_id
 # fir上面自己的token
-fir_api_token = '6a7383d0e95bddb4cb6b19a96da246b7'
+fir_api_token = constant.fir_api_token
 
 
 # fir获取Token https://www.betaqr.com/docs/publish

@@ -10,16 +10,17 @@ import json
 
 import requests
 import fir
+import constant
 
 # TODO 这里需要根据自己项目进行改写
 # 机器人应用id
-app_id = 'cli_a3d348f48e7a500c'
+app_id = constant.app_id
 # 机器人应用secret
-app_secret = 'woCsnNXNNlfnoPqT5ABmCfJFAJEZfOIo'
+app_secret = constant.app_secret
 # 机器人webhook
-web_hook = 'https://open.feishu.cn/open-apis/bot/v2/hook/e4d9e8e5-6c97-4eb7-aae9-158590634c05'
+web_hook = constant.web_hook
 # @人的id，可以在网页版飞书进行查看
-at_guo_yang = '7081849381206310940'
+at_guo_yang = constant.at_guo_yang
 
 
 # 获取飞书token

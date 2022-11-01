@@ -20,14 +20,14 @@ before_script:
     # 输出全局变量
 #    - export
     - |
-        if [ $GITLAB_USER_NAME == "郭杨" ]
+        if [ $GITLAB_USER_NAME == "郭xx" ]
         then
             echo "郭杨，您好！"
-            atFeishuUid="6949042068928856065"
-        elif [ $GITLAB_USER_NAME == "周咏龙" ]
+            atFeishuUid="xxxxx"
+        elif [ $GITLAB_USER_NAME == "周xx" ]
         then
             echo "周咏龙，您好！"
-            atFeishuUid="6663393582621131016"
+            atFeishuUid="xxxx"
         fi
 
 # 定义构建阶段

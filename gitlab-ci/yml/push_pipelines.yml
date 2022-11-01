@@ -3,7 +3,7 @@ build-push:
     stage: build-push
     script:
         - echo "build-push start"
-        - cd /Users/axl/Desktop/packageShell
+        - cd /Users/yangguo/HuafangProject/slogan
         - ls
         - sh Lamour_release.sh
     rules:
