@@ -1,5 +1,13 @@
-from time import sleep
+# !/usr/bin/python3
+# coding:utf-8
 
+"""
+@Name: yang.guo
+@Date: 2022/6/16-3:17 PM
+@Desc: 自动化测试：账号密码登陆
+"""
+
+from time import sleep
 import uiauto
 
 

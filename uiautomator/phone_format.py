@@ -1,9 +1,14 @@
+# !/usr/bin/python3
+# coding:utf-8
+
+"""
+@Name: yang.guo
+@Date: 2022/6/16-3:17 PM
+@Desc: 自动化测试：手机号登陆
+"""
+
 import re
 from time import sleep
-
-# Readme文档 https://github.com/openatx/uiautomator2/blob/master/README.md
-# cmd输入weditor开启预览模式、用于获取界面UI信息
-# python -m uiautomator2 init
 import uiauto
 
 

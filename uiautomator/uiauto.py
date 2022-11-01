@@ -1,11 +1,15 @@
+# !/usr/bin/python3
+# coding:utf-8
+
+"""
+@Name: yang.guo
+@Date: 2022/6/16-3:17 PM
+@Desc: 自动化测试入口类
+"""
+
 import re
 from time import sleep
-
 import uiautomator2 as u2
-
-# Readme文档 https://github.com/openatx/uiautomator2/blob/master/README.md
-# cmd输入weditor开启预览模式、用于获取界面UI信息
-# python -m uiautomator2 init
 import email_format
 
 app_package_name = 'com.relationship.rings'

@@ -1,7 +1,14 @@
+# !/usr/bin/python3
+# coding:utf-8
+
+"""
+@Name: yang.guo
+@Date: 2022/6/16-3:17 PM
+@Desc: 自动化测试：验证邮箱
+"""
+
 import re
 from time import sleep
-
-# 检验弹窗是否存在
 import uiauto
 
 

@@ -1,11 +1,11 @@
 # 定义构建变量
 variables:
     # 飞书机器人的WebHook地址
-    feishuWebHook: "https://open.feishu.cn/open-apis/bot/v2/hook/460cd03a-8d76-4b35-9862-96ae74d7c59b"
+    feishuWebHook: "https://open.feishu.cn/open-apis/bot/v2/hook/e4d9e8e5-6c97-4eb7-aae9-158590634c05"
     # 需要@人的飞书UID
     atFeishuUid: ""
     # 项目地址
-    gitProjectPath: "/Users/axl/AndroidStudioProjects/NewPengPeng/app"
+    gitProjectPath: "/Users/yangguo/HuafangProject/slogan"
     # 需要打包的git分支
     gitBranch: "先不用打包功能"
 

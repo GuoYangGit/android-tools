@@ -1,3 +1,12 @@
+# !/usr/bin/python3
+# coding:utf-8
+
+"""
+@Name: yang.guo
+@Date: 2022/6/16-3:17 PM
+@Desc: 自动化测试：登陆验证
+"""
+
 import uiauto
 
 
