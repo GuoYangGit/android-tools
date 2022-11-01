@@ -1,2 +1,3 @@
 # created by virtualenv automatically
 /.idea/
+/gitlab-ci/py/constant.py
