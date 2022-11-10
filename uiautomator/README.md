@@ -4,18 +4,18 @@
 
 ## 安装
 - 安装`uiautomator2`
-```shell
+```bash
 pip install --upgrade --pre uiautomator2
 ```
 测试是否安装成功 `uiautomator2 --help`
 - 安装UI查看器`weditor`
-```shell
+```bash
 pip install -U weditor
 ```
 安装好之后，就可以在命令行运行 `weditor --help` 确认是否安装成功了。
 命令行直接输入 `weditor` 会自动打开浏览器，输入设备的`ip`或者序列号，点击`Connect`即可。
 - 安装`uiautomator2`到手机
-```shell
+```bash
 # init 所有的已经连接到电脑的设备
 python -m uiautomator2 init
 # 高阶用法
