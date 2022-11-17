@@ -1,2 +1,3 @@
 # created by virtualenv automatically
-/py/constant.py
+/gitlab-ci/py/constant.py
+/gitlab-ci/py/__pycache__/
