@@ -36,7 +36,9 @@ import sys
 
 def find_crypto_lib():
     if sys.platform != 'win32':
-        return ctypes.util.find_library('crypto')
+        # 注释掉下面路径,写绝对路径
+        # return ctypes.util.find_library('crypto')
+        return '/usr/lib/libcrypto.dylib'
 
     lib_names = [
         'libcrypto-1_1.dll',

@@ -26,8 +26,8 @@ MAGIC_END = 0x00
 
 lastseq = 0
 
-PRIV_KEY = "c09350b6941986ecbd97c90f7876d94aeb0201d8c76af0436a286a290e34059a"
-PUB_KEY = "b8d7998c8fcab9a3cc541f5b738e7f9d558ac55f68384793af206633638fe3ed789e66354064f3f5e5ef7f368a5ed90496ea0bbb5e7e44ffd0f654caccd8b32d"
+PRIV_KEY = "6b020bfcd36bbf859cc25938431f453989e3566e48fab628ce51f5771ad09427"
+PUB_KEY = "9a1e5b79c01b0fa32e8ed0a6df542f4d67e79a996ed136a27cf2978d2fdf59c92ef986b63a69b014c6610cdb3af6bc12c6bb9287be806630fc25683906cce588"
 
 
 class ZstdDecompressReader:
@@ -246,5 +246,3 @@ def main(args):
 
 if __name__ == "__main__":
     main(sys.argv[1:])
-
-
