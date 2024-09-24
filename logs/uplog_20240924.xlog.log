@@ -1,0 +1,2581 @@
+^^^^^^^^^^Aug  8 2022^^^19:06:12^^^^^^^^^^[18571,18571][2024-09-24 +0800 10:28:02]
+get mmap time: 3
+MARS_URL: 
+MARS_PATH: HEAD
+MARS_REVISION: 
+MARS_BUILD_TIME: 2022-08-08 19:06:10
+MARS_BUILD_JOB: 
+log appender mode:1, use mmap:1
+cache dir space info, capacity:115718717440 free:87537651712 available:87312236544
+log dir space info, capacity:115718717440 free:87537651712 available:87312236544
+[I][2024-09-24 +8.0 10:28:02.183][18571, 161][SHUMEI][ShumeiUtils$initShumeiDevice$1, onSuccess, 21][registerServerIdSuccess serverId:BE2MjrhJ4zV7Qj6bc6gXLWxsFjLWae9ZJnqucgrxdk7/1WHu62oOgzAAzuGXjRmoS7Zbpch5xGEe5W196nno9wA==
+[I][2024-09-24 +8.0 10:28:02.719][18571, 161][SHUMEI][ShumeiUtils$initShumeiDevice$1, onSuccess, 21][registerServerIdSuccess serverId:Bqi4285QZS86bFEcxkXZEs7krrCLjxQ1RzGAIy2D9aLos3/tZwAX4pJn3lX04JVhZaH9I/QehNoV13dJSEirRgQ==
+[D][2024-09-24 +8.0 10:28:02.727][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.usercore.proto.UserLogin$Req@33a0368d
+latitude: 37.83279
+longitude: 112.490398
+[D][2024-09-24 +8.0 10:28:02.918][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.util.proto.PreloadConfig$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:02.923][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.util.proto.PreloadConfig$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:03.291][18571, 187][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.util.proto.PreloadConfig$Res@97c2fda4
+comment_gender_conf {
+  chat_type: 1
+  gender: 1
+  star_label_id1: 1023
+  star_label_id1: 1015
+  star_label_id1: 1018
+  star_label_id1: 1009
+  star_label_id1: 1010
+  star_label_id1: 1012
+  star_label_id1: 1013
+  star_label_id1: 1014
+  star_label_id1: 1016
+  star_label_id1: 1022
+  star_label_id2: 1023
+  star_label_id2: 1015
+  star_label_id2: 1018
+  star_label_id2: 1009
+  star_label_id2: 1010
+  star_label_id2: 1012
+  star_label_id2: 1013
+  star_label_id2: 1014
+  star_label_id2: 1016
+  star_label_id2: 1022
+  star_label_id3: 3002
+  star_label_id3: 3003
+  star_label_id3: 3004
+  star_label_id3: 3007
+  star_label_id3: 3008
+  star_label_id4: 5001
+  star_label_id4: 5011
+  star_label_id4: 5003
+  star_label_id4: 5012
+  star_label_id4: 5013
+  star_label_id4: 5018
+  star_label_id4: 5014
+  star_label_id4: 5016
+  star_label_id4: 5017
+  star_label_id5: 5001
+  star_label_id5: 5011
+  star_label_id5: 5003
+  star_label_id5: 5012
+  star_label_id5: 5013
+  star_label_id5: 5018
+  star_label_id5: 5014
+  star_label_id5: 5016
+  star_label_id5: 5017
+}
+comment_gender_conf {
+  chat_type: 2
+  gender: 1
+  star_label_id1: 1002
+  star_label_id1: 1019
+  star_label_id1: 1008
+  star_label_id1: 1021
+  star_label_id1: 1010
+  star_label_id1: 1012
+  star_label_id1: 1013
+  star_label_id1: 1014
+  star_label_id1: 1015
+  star_label_id1: 1016
+  star_label_id1: 1017
+  star_label_id1: 1006
+  star_label_id2: 1002
+  star_label_id2: 1019
+  star_label_id2: 1008
+  star_label_id2: 1021
+  star_label_id2: 1010
+  star_label_id2: 1012
+  star_label_id2: 1013
+  star_label_id2: 1014
+  star_label_id2: 1015
+  star_label_id2: 1016
+  star_label_id2: 1017
+  star_label_id2: 1006
+  star_label_id3: 3001
+  star_label_id3: 3002
+  star_label_id3: 3004
+  star_label_id3: 3005
+  star_label_id3: 3006
+  star_label_id4: 5001
+  star_label_id4: 5011
+  star_label_id4: 5003
+  star_label_id4: 5012
+  star_label_id4: 5013
+  star_label_id4: 5018
+  star_label_id4: 5014
+  star_label_id4: 5015
+  star_label_id4: 5016
+  star_label_id4: 5017
+  star_label_id5: 5001
+  star_label_id5: 5011
+  star_label_id5: 5003
+  star_label_id5: 5012
+  star_label_id5: 5013
+  star_label_id5: 5018
+  star_label_id5: 5014
+  star_label_id5: 5015
+  star_label_id5: 5016
+  star_label_id5: 5017
+}
+comment_gender_conf {
+  chat_type: 1
+  gender: 2
+  star_label_id1: 1003
+  star_label_id1: 1007
+  star_label_id1: 1009
+  star_label_id1: 1010
+  star_label_id1: 1012
+  star_label_id1: 1013
+  star_label_id1: 1014
+  star_label_id1: 1015
+  star_label_id1: 1016
+  star_label_id1: 1004
+  star_label_id2: 1003
+  star_label_id2: 1007
+  star_label_id2: 1009
+  star_label_id2: 1010
+  star_label_id2: 1012
+  star_label_id2: 1013
+  star_label_id2: 1014
+  star_label_id2: 1015
+  star_label_id2: 1016
+  star_label_id2: 1004
+  star_label_id3: 3009
+  star_label_id3: 3002
+  star_label_id3: 3003
+  star_label_id3: 3004
+  star_label_id3: 3007
+  star_label_id3: 3008
+  star_label_id4: 5001
+  star_label_id4: 5019
+  star_label_id4: 5003
+  star_label_id4: 5010
+  star_label_id4: 5008
+  star_label_id4: 5009
+  star_label_id5: 5001
+  star_label_id5: 5019
+  star_label_id5: 5003
+  star_label_id5: 5010
+  star_label_id5: 5008
+  star_label_id5: 5009
+}
+comment_gender_conf {
+  chat_type: 2
+  gender: 2
+  star_label_id1: 1001
+  star_label_id1: 1007
+  star_label_id1: 1008
+  star_label_id1: 1009
+  star_label_id1: 1010
+  star_label_id1: 1011
+  star_label_id1: 1012
+  star_label_id1: 1013
+  star_label_id1: 1014
+  star_label_id1: 1015
+  star_label_id1: 1016
+  star_label_id1: 1017
+  star_label_id1: 1005
+  star_label_id2: 1001
+  star_label_id2: 1007
+  star_label_id2: 1008
+  star_label_id2: 1009
+  star_label_id2: 1010
+  star_label_id2: 1011
+  star_label_id2: 1012
+  star_label_id2: 1013
+  star_label_id2: 1014
+  star_label_id2: 1015
+  star_label_id2: 1016
+  star_label_id2: 1017
+  star_label_id2: 1005
+  star_label_id3: 3001
+  star_label_id3: 3002
+  star_label_id3: 3003
+  star_label_id3: 3004
+  star_label_id3: 3005
+  star_label_id3: 3006
+  star_label_id4: 5001
+  star_label_id4: 5002
+  star_label_id4: 5003
+  star_label_id4: 5004
+  star_label_id4: 5005
+  star_label_id4: 5006
+  star_label_id4: 5007
+  star_label_id4: 5008
+  star_label_id4: 5009
+  star_label_id4: 5010
+  star_label_id5: 5001
+  star_label_id5: 5002
+  star_label_id5: 5003
+  star_label_id5: 5004
+  star_label_id5: 5005
+  star_label_id5: 5006
+  star_label_id5: 5007
+  star_label_id5: 5008
+  star_label_id5: 5009
+  star_label_id5: 5010
+}
+interests {
+  interest_id: 1
+  name: "\347\247\201\345\257\206\350\257\235\351\242\230"
+}
+interests {
+  interest_id: 2
+  name: "\350\247\206\351\242\221\350\201\212\345\244\251"
+}
+interests {
+  interest_id: 3
+  name: "\346\203\205\346\204\237\345\200\276\350\257\211"
+}
+interests {
+  interest_id: 4
+  name: "\350\257\255\351\237\263\350\201\212\345\244\251"
+}
+interests {
+  interest_id: 5
+  name: "\350\267\263\350\210\236"
+}
+interests {
+  interest_id: 6
+  name: "\346\227\205\346\270\270"
+}
+interests {
+  interest_id: 7
+  name: "\347\276\216\351\243\237"
+}
+interests {
+  interest_id: 8
+  name: "\345\256\240\347\211\251"
+}
+interests {
+  interest_id: 9
+  name: "\350\277\220\345\212\250"
+}
+interests {
+  interest_id: 10
+  name: "\350\257\255\350\250\200\345\255\246\344\271\240"
+}
+interests {
+  interest_id: 11
+  name: "\347\224\265\345\275\261"
+}
+interests {
+  interest_id: 12
+  name: "\351\237\263\344\271\220"
+}
+interests {
+  interest_id: 13
+  name: "cosplay"
+}
+interests {
+  interest_id: 14
+  name: "\346\267\261\345\244\234\350\201\212\345\244\251"
+}
+interests {
+  interest_id: 15
+  name: "\345\257\273\346\211\276\347\201\265\351\255\202\344\274\264\344\276\243"
+}
+list {
+  commendatory: 1
+  label_id: 5012
+  name: "\346\205\267\346\205\250"
+  show_profile: 1
+}
+list {
+  label_id: 1008
+  name: "\344\270\215\351\233\205\345\247\277\345\212\277"
+  show_profile: 1
+}
+list {
+  label_id: 1009
+  name: "\346\200\201\345\272\246\346\201\266\345\212\243"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5013
+  name: "\345\217\257\351\235\240"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5014
+  name: "\350\213\261\344\277\212"
+  show_profile: 1
+}
+list {
+  label_id: 1010
+  name: "\347\275\221\347\273\234\345\215\241\351\241\277"
+  show_profile: 1
+}
+list {
+  label_id: 1011
+  name: "\344\270\221\351\231\213"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5001
+  name: "\350\277\267\344\272\272"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5002
+  name: "\345\217\257\347\210\261"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5003
+  name: "\347\203\255\346\203\205"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5004
+  name: "\346\274\202\344\272\256"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5005
+  name: "\346\200\247\346\204\237"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5006
+  name: "\350\272\253\346\235\220\345\245\275"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5007
+  name: "\345\205\211\351\262\234\344\272\256\344\270\275"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5008
+  name: "\346\210\220\347\206\237\351\255\205\345\212\233"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5009
+  name: "\345\243\260\351\237\263\345\245\275\345\220\254"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5010
+  name: "\346\270\251\346\237\224"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5011
+  name: "\347\273\205\345\243\253"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5015
+  name: "\345\201\245\345\243\256"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5016
+  name: "\345\260\212\351\207\215\344\273\226\344\272\272"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5017
+  name: "\345\271\275\351\273\230"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5018
+  name: "\351\243\216\350\266\243"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5019
+  name: "\346\210\220\347\206\237"
+  show_profile: 1
+}
+list {
+  label_id: 3001
+  name: "\345\205\263\351\227\255\347\233\270\346\234\272"
+  show_profile: 1
+}
+list {
+  label_id: 3002
+  name: "\346\227\240\350\266\243"
+  show_profile: 1
+}
+list {
+  label_id: 3003
+  name: "\350\257\255\350\250\200\344\270\215\351\200\232"
+  show_profile: 1
+}
+list {
+  label_id: 3004
+  name: "\345\256\263\347\276\236"
+  show_profile: 1
+}
+list {
+  label_id: 3005
+  name: "\351\225\277\347\233\270\346\231\256\351\200\232"
+  show_profile: 1
+}
+list {
+  label_id: 3006
+  name: "\347\224\273\350\264\250\346\250\241\347\263\212"
+  show_profile: 1
+}
+list {
+  label_id: 3007
+  name: "\345\243\260\351\237\263\346\231\256\351\200\232"
+  show_profile: 1
+}
+list {
+  label_id: 3008
+  name: "\345\243\260\351\237\263\346\226\255\346\226\255\347\273\255\347\273\255"
+  show_profile: 1
+}
+list {
+  label_id: 1001
+  name: "\346\210\221\347\234\213\344\270\215\345\210\260\345\245\271"
+  show_profile: 1
+}
+list {
+  label_id: 1002
+  name: "\346\210\221\347\234\213\344\270\215\345\210\260\344\273\226"
+  show_profile: 1
+}
+list {
+  label_id: 1003
+  name: "\346\210\221\345\220\254\344\270\215\345\210\260\345\245\271\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 1004
+  name: "\345\245\271\345\220\254\344\270\215\345\210\260\346\210\221\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 1005
+  name: "\345\245\271\347\234\213\344\270\215\345\210\260\346\210\221"
+  show_profile: 1
+}
+list {
+  label_id: 1006
+  name: "\344\273\226\347\234\213\344\270\215\345\210\260\346\210\221"
+  show_profile: 1
+}
+list {
+  label_id: 1007
+  name: "\347\216\257\345\242\203\345\230\210\346\235\202"
+  show_profile: 1
+}
+list {
+  label_id: 1012
+  name: "\346\225\267\350\241\215"
+  show_profile: 1
+}
+list {
+  label_id: 1013
+  name: "\350\231\232\345\201\207\346\200\247\345\210\253"
+  show_profile: 1
+}
+list {
+  label_id: 1014
+  name: "\344\270\215\347\244\274\350\262\214"
+  show_profile: 1
+}
+list {
+  label_id: 1015
+  name: "\346\262\241\346\234\211\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 1016
+  name: "\346\254\272\350\257\210"
+  show_profile: 1
+}
+list {
+  label_id: 1017
+  name: "\346\227\240\344\272\222\345\212\250"
+  show_profile: 1
+}
+list {
+  label_id: 1018
+  name: "\347\216\257\345\242\203\345\230\210\346\235\202"
+  show_profile: 1
+}
+list {
+  label_id: 1019
+  name: "\345\226\234\346\254\242\350\260\203\346\203\205"
+  show_profile: 1
+}
+list {
+  label_id: 1020
+  name: "\344\270\215\351\233\205\345\247\277\345\212\277"
+  show_profile: 1
+}
+list {
+  label_id: 1021
+  name: "\345\274\272\350\277\253\350\241\214\344\270\272"
+  show_profile: 1
+}
+list {
+  label_id: 1022
+  name: "\344\273\226\345\220\254\344\270\215\345\210\260\346\210\221\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 1023
+  name: "\346\210\221\345\220\254\344\270\215\345\210\260\344\273\226\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 3009
+  name: "\344\270\215\347\220\206\344\272\272"
+  show_profile: 1
+}
+report_reasons {
+  name: "\350\211\262\346\203\205"
+  reason_id: 1
+}
+report_reasons {
+  name: "\346\232\264\345\212\233/\350\257\255\350\250\200\346\224\273\345\207\273"
+  reason_id: 2
+}
+report_reasons {
+  name: "\345\271\277\345\221\212\350\257\210\351\252\227"
+  reason_id: 3
+}
+report_reasons {
+  name: "\345\205\266\344\273\226"
+  reason_id: 4
+}
+skill_languages {
+  code: "en-US"
+  content: "English"
+}
+skill_languages {
+  code: "zh-CN"
+  content: "\347\256\200\344\275\223\344\270\255\346\226\207"
+}
+skill_languages {
+  code: "zh-TW"
+  content: "\347\271\201\344\275\223\344\270\255\346\226\207"
+}
+skill_languages {
+  code: "ja-JP"
+  content: "\346\227\245\346\234\254\350\252\236"
+}
+skill_languages {
+  code: "ko-KR"
+  content: "\355\225\234\352\265\255\354\226\264"
+}
+skill_languages {
+  code: "th-TH"
+  content: "\340\271\204\340\270\227\340\270\242"
+}
+skill_languages {
+  code: "vi-VN"
+  content: "Ti\341\272\277ng Vi\341\273\207t"
+}
+skill_languages {
+  code: "id-ID"
+  content: "Bahasa Indonesia"
+}
+skill_languages {
+  code: "ru-RU"
+  content: "\320\240\321\203\321\201\321\201\320\272\320\270\320\271"
+}
+skill_languages {
+  code: "es-ES"
+  content: "Espa\303\261ol"
+}
+skill_languages {
+  code: "pt-PT"
+  content: "Portugu\303\252s"
+}
+skill_languages {
+  code: "fr-FR"
+  content: "Fran\303\247ais"
+}
+skill_languages {
+  code: "de-DE"
+  content: "Deutsch"
+}
+skill_languages {
+  code: "it-IT"
+  content: "Itomaliano"
+}
+skill_languages {
+  code: "ar-EG"
+  content: "\330\247\331\204\330\271\330\261\330\250\331\212\330\251"
+}
+update_info {
+}
+[D][2024-09-24 +8.0 10:28:03.307][18571, 186][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.util.proto.PreloadConfig$Res@97c2fda4
+comment_gender_conf {
+  chat_type: 1
+  gender: 1
+  star_label_id1: 1023
+  star_label_id1: 1015
+  star_label_id1: 1018
+  star_label_id1: 1009
+  star_label_id1: 1010
+  star_label_id1: 1012
+  star_label_id1: 1013
+  star_label_id1: 1014
+  star_label_id1: 1016
+  star_label_id1: 1022
+  star_label_id2: 1023
+  star_label_id2: 1015
+  star_label_id2: 1018
+  star_label_id2: 1009
+  star_label_id2: 1010
+  star_label_id2: 1012
+  star_label_id2: 1013
+  star_label_id2: 1014
+  star_label_id2: 1016
+  star_label_id2: 1022
+  star_label_id3: 3002
+  star_label_id3: 3003
+  star_label_id3: 3004
+  star_label_id3: 3007
+  star_label_id3: 3008
+  star_label_id4: 5001
+  star_label_id4: 5011
+  star_label_id4: 5003
+  star_label_id4: 5012
+  star_label_id4: 5013
+  star_label_id4: 5018
+  star_label_id4: 5014
+  star_label_id4: 5016
+  star_label_id4: 5017
+  star_label_id5: 5001
+  star_label_id5: 5011
+  star_label_id5: 5003
+  star_label_id5: 5012
+  star_label_id5: 5013
+  star_label_id5: 5018
+  star_label_id5: 5014
+  star_label_id5: 5016
+  star_label_id5: 5017
+}
+comment_gender_conf {
+  chat_type: 2
+  gender: 1
+  star_label_id1: 1002
+  star_label_id1: 1019
+  star_label_id1: 1008
+  star_label_id1: 1021
+  star_label_id1: 1010
+  star_label_id1: 1012
+  star_label_id1: 1013
+  star_label_id1: 1014
+  star_label_id1: 1015
+  star_label_id1: 1016
+  star_label_id1: 1017
+  star_label_id1: 1006
+  star_label_id2: 1002
+  star_label_id2: 1019
+  star_label_id2: 1008
+  star_label_id2: 1021
+  star_label_id2: 1010
+  star_label_id2: 1012
+  star_label_id2: 1013
+  star_label_id2: 1014
+  star_label_id2: 1015
+  star_label_id2: 1016
+  star_label_id2: 1017
+  star_label_id2: 1006
+  star_label_id3: 3001
+  star_label_id3: 3002
+  star_label_id3: 3004
+  star_label_id3: 3005
+  star_label_id3: 3006
+  star_label_id4: 5001
+  star_label_id4: 5011
+  star_label_id4: 5003
+  star_label_id4: 5012
+  star_label_id4: 5013
+  star_label_id4: 5018
+  star_label_id4: 5014
+  star_label_id4: 5015
+  star_label_id4: 5016
+  star_label_id4: 5017
+  star_label_id5: 5001
+  star_label_id5: 5011
+  star_label_id5: 5003
+  star_label_id5: 5012
+  star_label_id5: 5013
+  star_label_id5: 5018
+  star_label_id5: 5014
+  star_label_id5: 5015
+  star_label_id5: 5016
+  star_label_id5: 5017
+}
+comment_gender_conf {
+  chat_type: 1
+  gender: 2
+  star_label_id1: 1003
+  star_label_id1: 1007
+  star_label_id1: 1009
+  star_label_id1: 1010
+  star_label_id1: 1012
+  star_label_id1: 1013
+  star_label_id1: 1014
+  star_label_id1: 1015
+  star_label_id1: 1016
+  star_label_id1: 1004
+  star_label_id2: 1003
+  star_label_id2: 1007
+  star_label_id2: 1009
+  star_label_id2: 1010
+  star_label_id2: 1012
+  star_label_id2: 1013
+  star_label_id2: 1014
+  star_label_id2: 1015
+  star_label_id2: 1016
+  star_label_id2: 1004
+  star_label_id3: 3009
+  star_label_id3: 3002
+  star_label_id3: 3003
+  star_label_id3: 3004
+  star_label_id3: 3007
+  star_label_id3: 3008
+  star_label_id4: 5001
+  star_label_id4: 5019
+  star_label_id4: 5003
+  star_label_id4: 5010
+  star_label_id4: 5008
+  star_label_id4: 5009
+  star_label_id5: 5001
+  star_label_id5: 5019
+  star_label_id5: 5003
+  star_label_id5: 5010
+  star_label_id5: 5008
+  star_label_id5: 5009
+}
+comment_gender_conf {
+  chat_type: 2
+  gender: 2
+  star_label_id1: 1001
+  star_label_id1: 1007
+  star_label_id1: 1008
+  star_label_id1: 1009
+  star_label_id1: 1010
+  star_label_id1: 1011
+  star_label_id1: 1012
+  star_label_id1: 1013
+  star_label_id1: 1014
+  star_label_id1: 1015
+  star_label_id1: 1016
+  star_label_id1: 1017
+  star_label_id1: 1005
+  star_label_id2: 1001
+  star_label_id2: 1007
+  star_label_id2: 1008
+  star_label_id2: 1009
+  star_label_id2: 1010
+  star_label_id2: 1011
+  star_label_id2: 1012
+  star_label_id2: 1013
+  star_label_id2: 1014
+  star_label_id2: 1015
+  star_label_id2: 1016
+  star_label_id2: 1017
+  star_label_id2: 1005
+  star_label_id3: 3001
+  star_label_id3: 3002
+  star_label_id3: 3003
+  star_label_id3: 3004
+  star_label_id3: 3005
+  star_label_id3: 3006
+  star_label_id4: 5001
+  star_label_id4: 5002
+  star_label_id4: 5003
+  star_label_id4: 5004
+  star_label_id4: 5005
+  star_label_id4: 5006
+  star_label_id4: 5007
+  star_label_id4: 5008
+  star_label_id4: 5009
+  star_label_id4: 5010
+  star_label_id5: 5001
+  star_label_id5: 5002
+  star_label_id5: 5003
+  star_label_id5: 5004
+  star_label_id5: 5005
+  star_label_id5: 5006
+  star_label_id5: 5007
+  star_label_id5: 5008
+  star_label_id5: 5009
+  star_label_id5: 5010
+}
+interests {
+  interest_id: 1
+  name: "\347\247\201\345\257\206\350\257\235\351\242\230"
+}
+interests {
+  interest_id: 2
+  name: "\350\247\206\351\242\221\350\201\212\345\244\251"
+}
+interests {
+  interest_id: 3
+  name: "\346\203\205\346\204\237\345\200\276\350\257\211"
+}
+interests {
+  interest_id: 4
+  name: "\350\257\255\351\237\263\350\201\212\345\244\251"
+}
+interests {
+  interest_id: 5
+  name: "\350\267\263\350\210\236"
+}
+interests {
+  interest_id: 6
+  name: "\346\227\205\346\270\270"
+}
+interests {
+  interest_id: 7
+  name: "\347\276\216\351\243\237"
+}
+interests {
+  interest_id: 8
+  name: "\345\256\240\347\211\251"
+}
+interests {
+  interest_id: 9
+  name: "\350\277\220\345\212\250"
+}
+interests {
+  interest_id: 10
+  name: "\350\257\255\350\250\200\345\255\246\344\271\240"
+}
+interests {
+  interest_id: 11
+  name: "\347\224\265\345\275\261"
+}
+interests {
+  interest_id: 12
+  name: "\351\237\263\344\271\220"
+}
+interests {
+  interest_id: 13
+  name: "cosplay"
+}
+interests {
+  interest_id: 14
+  name: "\346\267\261\345\244\234\350\201\212\345\244\251"
+}
+interests {
+  interest_id: 15
+  name: "\345\257\273\346\211\276\347\201\265\351\255\202\344\274\264\344\276\243"
+}
+list {
+  commendatory: 1
+  label_id: 5012
+  name: "\346\205\267\346\205\250"
+  show_profile: 1
+}
+list {
+  label_id: 1008
+  name: "\344\270\215\351\233\205\345\247\277\345\212\277"
+  show_profile: 1
+}
+list {
+  label_id: 1009
+  name: "\346\200\201\345\272\246\346\201\266\345\212\243"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5013
+  name: "\345\217\257\351\235\240"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5014
+  name: "\350\213\261\344\277\212"
+  show_profile: 1
+}
+list {
+  label_id: 1010
+  name: "\347\275\221\347\273\234\345\215\241\351\241\277"
+  show_profile: 1
+}
+list {
+  label_id: 1011
+  name: "\344\270\221\351\231\213"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5001
+  name: "\350\277\267\344\272\272"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5002
+  name: "\345\217\257\347\210\261"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5003
+  name: "\347\203\255\346\203\205"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5004
+  name: "\346\274\202\344\272\256"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5005
+  name: "\346\200\247\346\204\237"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5006
+  name: "\350\272\253\346\235\220\345\245\275"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5007
+  name: "\345\205\211\351\262\234\344\272\256\344\270\275"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5008
+  name: "\346\210\220\347\206\237\351\255\205\345\212\233"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5009
+  name: "\345\243\260\351\237\263\345\245\275\345\220\254"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5010
+  name: "\346\270\251\346\237\224"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5011
+  name: "\347\273\205\345\243\253"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5015
+  name: "\345\201\245\345\243\256"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5016
+  name: "\345\260\212\351\207\215\344\273\226\344\272\272"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5017
+  name: "\345\271\275\351\273\230"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5018
+  name: "\351\243\216\350\266\243"
+  show_profile: 1
+}
+list {
+  commendatory: 1
+  label_id: 5019
+  name: "\346\210\220\347\206\237"
+  show_profile: 1
+}
+list {
+  label_id: 3001
+  name: "\345\205\263\351\227\255\347\233\270\346\234\272"
+  show_profile: 1
+}
+list {
+  label_id: 3002
+  name: "\346\227\240\350\266\243"
+  show_profile: 1
+}
+list {
+  label_id: 3003
+  name: "\350\257\255\350\250\200\344\270\215\351\200\232"
+  show_profile: 1
+}
+list {
+  label_id: 3004
+  name: "\345\256\263\347\276\236"
+  show_profile: 1
+}
+list {
+  label_id: 3005
+  name: "\351\225\277\347\233\270\346\231\256\351\200\232"
+  show_profile: 1
+}
+list {
+  label_id: 3006
+  name: "\347\224\273\350\264\250\346\250\241\347\263\212"
+  show_profile: 1
+}
+list {
+  label_id: 3007
+  name: "\345\243\260\351\237\263\346\231\256\351\200\232"
+  show_profile: 1
+}
+list {
+  label_id: 3008
+  name: "\345\243\260\351\237\263\346\226\255\346\226\255\347\273\255\347\273\255"
+  show_profile: 1
+}
+list {
+  label_id: 1001
+  name: "\346\210\221\347\234\213\344\270\215\345\210\260\345\245\271"
+  show_profile: 1
+}
+list {
+  label_id: 1002
+  name: "\346\210\221\347\234\213\344\270\215\345\210\260\344\273\226"
+  show_profile: 1
+}
+list {
+  label_id: 1003
+  name: "\346\210\221\345\220\254\344\270\215\345\210\260\345\245\271\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 1004
+  name: "\345\245\271\345\220\254\344\270\215\345\210\260\346\210\221\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 1005
+  name: "\345\245\271\347\234\213\344\270\215\345\210\260\346\210\221"
+  show_profile: 1
+}
+list {
+  label_id: 1006
+  name: "\344\273\226\347\234\213\344\270\215\345\210\260\346\210\221"
+  show_profile: 1
+}
+list {
+  label_id: 1007
+  name: "\347\216\257\345\242\203\345\230\210\346\235\202"
+  show_profile: 1
+}
+list {
+  label_id: 1012
+  name: "\346\225\267\350\241\215"
+  show_profile: 1
+}
+list {
+  label_id: 1013
+  name: "\350\231\232\345\201\207\346\200\247\345\210\253"
+  show_profile: 1
+}
+list {
+  label_id: 1014
+  name: "\344\270\215\347\244\274\350\262\214"
+  show_profile: 1
+}
+list {
+  label_id: 1015
+  name: "\346\262\241\346\234\211\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 1016
+  name: "\346\254\272\350\257\210"
+  show_profile: 1
+}
+list {
+  label_id: 1017
+  name: "\346\227\240\344\272\222\345\212\250"
+  show_profile: 1
+}
+list {
+  label_id: 1018
+  name: "\347\216\257\345\242\203\345\230\210\346\235\202"
+  show_profile: 1
+}
+list {
+  label_id: 1019
+  name: "\345\226\234\346\254\242\350\260\203\346\203\205"
+  show_profile: 1
+}
+list {
+  label_id: 1020
+  name: "\344\270\215\351\233\205\345\247\277\345\212\277"
+  show_profile: 1
+}
+list {
+  label_id: 1021
+  name: "\345\274\272\350\277\253\350\241\214\344\270\272"
+  show_profile: 1
+}
+list {
+  label_id: 1022
+  name: "\344\273\226\345\220\254\344\270\215\345\210\260\346\210\221\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 1023
+  name: "\346\210\221\345\220\254\344\270\215\345\210\260\344\273\226\345\243\260\351\237\263"
+  show_profile: 1
+}
+list {
+  label_id: 3009
+  name: "\344\270\215\347\220\206\344\272\272"
+  show_profile: 1
+}
+report_reasons {
+  name: "\350\211\262\346\203\205"
+  reason_id: 1
+}
+report_reasons {
+  name: "\346\232\264\345\212\233/\350\257\255\350\250\200\346\224\273\345\207\273"
+  reason_id: 2
+}
+report_reasons {
+  name: "\345\271\277\345\221\212\350\257\210\351\252\227"
+  reason_id: 3
+}
+report_reasons {
+  name: "\345\205\266\344\273\226"
+  reason_id: 4
+}
+skill_languages {
+  code: "en-US"
+  content: "English"
+}
+skill_languages {
+  code: "zh-CN"
+  content: "\347\256\200\344\275\223\344\270\255\346\226\207"
+}
+skill_languages {
+  code: "zh-TW"
+  content: "\347\271\201\344\275\223\344\270\255\346\226\207"
+}
+skill_languages {
+  code: "ja-JP"
+  content: "\346\227\245\346\234\254\350\252\236"
+}
+skill_languages {
+  code: "ko-KR"
+  content: "\355\225\234\352\265\255\354\226\264"
+}
+skill_languages {
+  code: "th-TH"
+  content: "\340\271\204\340\270\227\340\270\242"
+}
+skill_languages {
+  code: "vi-VN"
+  content: "Ti\341\272\277ng Vi\341\273\207t"
+}
+skill_languages {
+  code: "id-ID"
+  content: "Bahasa Indonesia"
+}
+skill_languages {
+  code: "ru-RU"
+  content: "\320\240\321\203\321\201\321\201\320\272\320\270\320\271"
+}
+skill_languages {
+  code: "es-ES"
+  content: "Espa\303\261ol"
+}
+skill_languages {
+  code: "pt-PT"
+  content: "Portugu\303\252s"
+}
+skill_languages {
+  code: "fr-FR"
+  content: "Fran\303\247ais"
+}
+skill_languages {
+  code: "de-DE"
+  content: "Deutsch"
+}
+skill_languages {
+  code: "it-IT"
+  content: "Itomaliano"
+}
+skill_languages {
+  code: "ar-EG"
+  content: "\330\247\331\204\330\271\330\261\330\250\331\212\330\251"
+}
+update_info {
+}
+[D][2024-09-24 +8.0 10:28:03.312][18571, 180][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.usercore.proto.UserLogin$Res@fcd3240a
+profile {
+  asset_diamond: 882273
+  avatar: "https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg"
+  bind_infos {
+    bind_key: "guoyanggit@gmail.com"
+    bind_mail: "guoyanggit@gmail.com"
+    bind_type: 15
+  }
+  bind_infos {
+    bind_key: "008617696051726"
+    bind_type: 1
+  }
+  bind_infos {
+    bind_key: "008613613469062"
+    bind_type: 1
+  }
+  bind_infos {
+    bind_key: "008617696051726"
+    bind_type: 1
+  }
+  calm_down_end_time: 0
+  country: "CN"
+  gender: 1
+  language: "zh-CN"
+  recharge_amount_sum: 0
+  uid: 10000107
+  unix_time: 0
+  user_cancellation_button_status: 1
+  user_token: "97613e1a26e23ad12477e378028d2d6cf993958a05a17394811de36acaced419"
+  username: "\347\273\203\350\213\261\351\233\204"
+}
+tencent_app_info {
+  appid: 20008540
+  expire_time: 1727231283217
+  secret_key: "eJyrVgrxCdYrSy1SslIy0jNQ0gHzM1NS80oy0zLBwoYGQGBoYA6VK07JTiwoyExRsjICiluYmhhAxFMrCjKLUpWsLMxMDKBCJZm5QAFDcyNzQxMTCwtjqAGZ6UBTC12TvEpNokoind0NLUv8nV0LKwzcCsyzqkwj-L0C0rKq3AOzgosrg8yKPW2VagFBDjAy"
+}
+[D][2024-09-24 +8.0 10:28:03.400][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.follow.proto.RemarkList$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:03.399][18571, 91][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallAllGoodsResource$Req@7bc6f
+timestamp: 0
+[D][2024-09-24 +8.0 10:28:03.416][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.follow.proto.FollowBlockList$Req@8009f703
+page: 1
+page_size: 2147483647
+[D][2024-09-24 +8.0 10:28:03.534][18571, 180][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.follow.proto.RemarkList$Res@650ec6d1
+remarks {
+  name: "\345\234\250\345\271\262\345\230\233"
+  uid: 10000086
+}
+remarks {
+  name: "\345\234\250\345\271\262\345\230\233"
+  uid: 10000119
+}
+[D][2024-09-24 +8.0 10:28:03.565][18571, 186][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallAllGoodsResource$Res@87ef2362
+goods_info {
+  goods_id: 18
+  goods_resource {
+    crc32: "3b7432df3350409d2415bce20ce5581e"
+    type: 1
+    url: "https://p-cdn.squidfun.com/squid/mall/20240823/ef3cdd09-0629-4d8b-85c7-c393be2b9b29.png"
+  }
+  goods_resource {
+    crc32: "3b7432df3350409d2415bce20ce5581e"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240823/96706ac7-f141-4d9a-b99a-7f97ed903d41.png"
+  }
+  language_name: "QA\347\244\274\347\211\251"
+  type: 1
+}
+goods_info {
+  goods_id: 32
+  goods_resource {
+    crc32: "b66824b317f6d75dfae9e1d0f401da3f"
+    type: 1
+    url: "https://p-cdn.squidfun.com/squid/mall/20240823/7d61230a-8b6f-4bed-b96e-a54190c29fff.pag"
+  }
+  goods_resource {
+    crc32: "cedbb612c5998426dd20d4fe0bd1564b"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240823/63825973-4627-4c43-a25b-40ec658c79d7.png"
+  }
+  language_name: "2\345\210\206\351\222\237\350\257\225\347\224\250\345\215\241"
+  type: 3
+}
+goods_info {
+  deleted: 1
+  goods_id: 5
+  type: 1
+}
+goods_info {
+  goods_id: 31
+  goods_resource {
+    crc32: "b66824b317f6d75dfae9e1d0f401da3f"
+    type: 1
+    url: "https://p-cdn.squidfun.com/squid/mall/20240823/0a2d82e7-39cf-4da5-8821-d3ba0a07d62e.pag"
+  }
+  goods_resource {
+    crc32: "cedbb612c5998426dd20d4fe0bd1564b"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240823/415cccc2-1747-4387-b4af-1a38b0ee85d7.png"
+  }
+  language_name: "1\345\210\206\351\222\237\351\200\232\350\257\235\345\215\241"
+  type: 3
+}
+goods_info {
+  deleted: 1
+  goods_id: 46
+  type: 2
+}
+goods_info {
+  deleted: 1
+  goods_id: 47
+  type: 3
+}
+goods_info {
+  goods_id: 48
+  goods_resource {
+    crc32: "3b7432df3350409d2415bce20ce5581e"
+    type: 1
+    url: "https://p-cdn.squidfun.com/squid/mall/20240827/2294257b-2d15-48ad-97cf-7dcabfc0682a.png"
+  }
+  goods_resource {
+    crc32: "3b7432df3350409d2415bce20ce5581e"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240827/2fba12e2-9c7f-46ae-a42a-9cb584e322b3.png"
+  }
+  language_name: "\351\255\224\346\263\225\345\270\275"
+  type: 1
+}
+goods_info {
+  goods_id: 49
+  goods_resource {
+    crc32: "891bd9e7e63ab09d5d65d64dfe0148e8"
+    type: 1
+    url: "https://p-cdn.squidfun.com/squid/mall/20240827/3d372e25-60ab-41b5-82f9-3dead33e9a0d.png"
+  }
+  goods_resource {
+    crc32: "891bd9e7e63ab09d5d65d64dfe0148e8"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240827/d131b1a4-c1d5-4f00-9ea1-0402f9992711.png"
+  }
+  language_name: "\346\263\225\346\213\211\345\210\251"
+  type: 1
+}
+goods_info {
+  goods_id: 8
+  goods_resource {
+    crc32: "06b66de89d52d08baf09c0cbc59872cd"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240827/4e5f5198-f07a-43bb-97e9-4e8e3226f9c9.png"
+  }
+  language_name: "\346\231\256\351\200\232\346\240\207\347\255\276"
+  type: 2
+}
+goods_info {
+  goods_id: 17
+  goods_resource {
+    crc32: "b66824b317f6d75dfae9e1d0f401da3f"
+    type: 1
+    url: "https://p-cdn.squidfun.com/squid/mall/20240826/50243edc-97c6-47d5-a333-94a92ca66929.pag"
+  }
+  goods_resource {
+    crc32: "6ef1a79bb91b0358e0bf573b8213a504"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240820/8c7f1956-9481-4189-8060-dd57d470c966.png"
+  }
+  language_name: "\345\276\256\347\254\221"
+  type: 1
+}
+goods_info {
+  goods_id: 50
+  goods_resource {
+    crc32: "1522848091"
+    type: 1
+    url: "https://p-cdn.squidfun.com/squid/mall/20240828/77b31283-b600-4f37-beeb-ecd4ec8c3793.pag"
+  }
+  goods_resource {
+    crc32: "3993899477"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240828/1c9aa939-2b1b-4ef9-8ca9-723ab085d0ee.png"
+  }
+  language_name: "\346\260\224\347\220\203"
+  type: 1
+}
+goods_info {
+  goods_id: 51
+  goods_resource {
+    crc32: "4050643133"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240829/40210623-e5e5-45a1-96de-99149f042fe7.jpeg"
+  }
+  language_name: "\346\226\260\345\273\272\347\244\274\347\211\251\346\240\207\347\255\276"
+  type: 2
+}
+goods_info {
+  goods_id: 52
+  goods_resource {
+    crc32: "638550034"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240829/853a5504-ba4e-48a8-a8cc-46b75e199dd5.png"
+  }
+  language_name: "\346\226\260\346\240\207\347\255\276"
+  type: 2
+}
+goods_info {
+  goods_id: 3
+  goods_resource {
+    crc32: "cedbb612c5998426dd20d4fe0bd1564b"
+    type: 1
+    url: "https://p-cdn.squidfun.com/squid/mall/20240823/f7d14589-a50d-4325-9d44-450482d6d6ae.png"
+  }
+  goods_resource {
+    crc32: "cedbb612c5998426dd20d4fe0bd1564b"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240823/b69c5801-47db-4307-ad8c-68c892ead557.png"
+  }
+  language_name: "rose"
+  type: 1
+}
+goods_info {
+  goods_id: 6
+  goods_resource {
+    crc32: "1522848091"
+    type: 1
+    url: "https://p-cdn.squidfun.com/squid/mall/20240828/f02ad44b-c3a2-456a-ab91-c94da15fed41.pag"
+  }
+  goods_resource {
+    crc32: "1682101493"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240828/19c17035-8250-4eb4-b2d0-f7471f7f9413.png"
+  }
+  language_name: "small car"
+  type: 1
+}
+goods_info {
+  goods_id: 7
+  goods_resource {
+    crc32: "6ef1a79bb91b0358e0bf573b8213a504"
+    type: 2
+    url: "https://p-cdn.squidfun.com/squid/mall/20240820/70231f9c-1389-4b08-882a-28de5236b15b.png"
+  }
+  language_name: "event"
+  type: 2
+}
+timestamp: 1727144883469
+[D][2024-09-24 +8.0 10:28:03.646][18571, 187][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.follow.proto.FollowBlockList$Res@e22cd4b
+msg: "success"
+total: 0
+[I][2024-09-24 +8.0 10:28:03.794][18571, 2*][BillingClientWrapper][BillingClientWrapper, connectToGooglePlay, 43][Connecting to Google Play
+[W][2024-09-24 +8.0 10:28:03.805][18571, 2*][MainActivity][com.squid.camchat.MainActivity$initView$3$1, emit, 141][支付状态：初始化中
+[D][2024-09-24 +8.0 10:28:03.813][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.task.proto.TaskSignDetail$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:03.818][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.recharge.proto.RechargePreConfig$Req@7c30f
+resource_types: 1
+[E][2024-09-24 +8.0 10:28:03.845][18571, 2*][IMUserRepository$login$1$1$1][com.spark.mvvm.repository.IMUserRepository$login$1$1$1, emit, 131][IMSDKListener event: ConnectSuccess
+[I][2024-09-24 +8.0 10:28:03.846][18571, 2*][RemarkManager$initRemarkData$1$3][com.spark.mvvm.repository.RemarkManager$initRemarkData$1$3, emit, 71][获取备注列表成功：[# com.spark.squid.follow.proto.RemarkList$RemarkInfo@d083211a
+name: "\345\234\250\345\271\262\345\230\233"
+uid: 10000086, # com.spark.squid.follow.proto.RemarkList$RemarkInfo@d0848b33
+name: "\345\234\250\345\271\262\345\230\233"
+uid: 10000119]
+[D][2024-09-24 +8.0 10:28:03.853][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallUserBackPack$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:03.860][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Req@7bca4
+scene: 1
+[E][2024-09-24 +8.0 10:28:03.867][18571, 2*][IMUserRepository$login$1$4][com.spark.mvvm.repository.IMUserRepository$login$1$4, onSuccess, 234][IM login success: 10000107
+[E][2024-09-24 +8.0 10:28:03.868][18571, 2*][IMUserRepository$login$1$2$1][com.spark.mvvm.repository.IMUserRepository$login$1$2$1, emit, 146][IMConversationListener event: SyncServerStart
+[I][2024-09-24 +8.0 10:28:03.927][18571, 201][BillingClientWrapper$connectToGooglePlay$1][BillingClientWrapper$connectToGooglePlay$1, onBillingSetupFinished, 48][Connected to Google Play
+[D][2024-09-24 +8.0 10:28:03.947][18571, 186][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.recharge.proto.RechargePreConfig$Res@a7261cc8
+msg: "SUCCESS"
+sku_infos {
+  resource_type: 1
+  sku: "scope.zs.1.7"
+}
+[D][2024-09-24 +8.0 10:28:03.961][18571, 187][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.task.proto.TaskSignDetail$Res@5784e781
+sign_info {
+  count: 10
+  day: 1
+  reward_type: 1
+  sign_status: 1
+  time: 1726738436917
+}
+sign_info {
+  count: 5
+  day: 2
+  reward_type: 1
+  time: 0
+}
+sign_info {
+  count: 10
+  day: 3
+  reward_type: 2
+  show_type: 1
+  time: 0
+}
+sign_info {
+  count: 10
+  day: 4
+  reward_type: 2
+  time: 0
+}
+sign_info {
+  count: 20
+  day: 5
+  other_param: "48"
+  reward_type: 1
+  show_type: 1
+  time: 0
+}
+sign_info {
+  count: 20
+  day: 6
+  other_param: "31"
+  reward_type: 1
+  show_today: 1
+  time: 1727144883875
+}
+sign_info {
+  count: 50
+  day: 7
+  reward_type: 1
+  show_type: 2
+  time: 0
+}
+[D][2024-09-24 +8.0 10:28:04.070][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Res@e123bcb3
+labels {
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  gift_infos {
+    goods_id: 50
+    price: 599
+  }
+  goods_id: 8
+  name: "\346\231\256\351\200\232\346\240\207\347\255\276"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240827/4e5f5198-f07a-43bb-97e9-4e8e3226f9c9.png"
+}
+labels {
+  gift_infos {
+    goods_id: 17
+    price: 199
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  goods_id: 7
+  name: "event"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240820/70231f9c-1389-4b08-882a-28de5236b15b.png"
+}
+msg: "SUCCESS"
+[D][2024-09-24 +8.0 10:28:04.085][18571, 180][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallUserBackPack$Res@7bca4
+[D][2024-09-24 +8.0 10:28:04.562][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.multilive.proto.MultilivePriceConfig$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:04.768][18571, 180][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.multilive.proto.MultilivePriceConfig$Res@d9f697b2
+config {
+  can_set: 1
+  current: 1
+  income_end: 30000
+  income_start: 10000
+  price: 50
+}
+config {
+  income_end: 50000
+  income_start: 30000
+  price: 100
+}
+config {
+  income_end: 80000
+  income_start: 50000
+  price: 200
+}
+config {
+  income_end: 100000
+  income_start: 80000
+  price: 300
+}
+config {
+  income_end: 300000
+  income_start: 100000
+  price: 400
+}
+config {
+  income_start: 300000
+  price: 500
+}
+income_detail {
+  begin_time: 1726416000000
+  end_time: 1727020800000
+}
+[D][2024-09-24 +8.0 10:28:04.834][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallUserBackPack$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:04.837][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Req@7bca4
+scene: 1
+[E][2024-09-24 +8.0 10:28:04.840][18571, 2*][IMUserRepository$login$1$2$1][com.spark.mvvm.repository.IMUserRepository$login$1$2$1, emit, 146][IMConversationListener event: SyncServerFinish
+[E][2024-09-24 +8.0 10:28:04.843][18571, 2*][IMUserRepository$login$1$1$1][com.spark.mvvm.repository.IMUserRepository$login$1$1$1, emit, 131][IMSDKListener event: SelfInfoUpdated(userInfo=IMUserInfo(userID=10000107, nickname=练英雄, faceUrl=https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg, selfSignature=你干啊, gender=1, level=1, birthday=20060323, status=0, customHashMap={Online=[B@2da8c50}))
+[I][2024-09-24 +8.0 10:28:04.846][18571, 2*][MainActivity][com.spark.mvvm.net.HttpRepository$rechargePre$$inlined$map$1$2, emit, 225][rechargePre:[# com.spark.squid.recharge.proto.RechargePreConfig$skuInfo@aa3e35f7
+resource_type: 1
+sku: "scope.zs.1.7"]
+[E][2024-09-24 +8.0 10:28:04.906][18571, 2*][IMUserRepository$login$1$1$1][com.spark.mvvm.repository.IMUserRepository$login$1$1$1, emit, 131][IMSDKListener event: SelfInfoUpdated(userInfo=IMUserInfo(userID=10000107, nickname=练英雄, faceUrl=https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg, selfSignature=你干啊, gender=1, level=1, birthday=20060323, status=1, customHashMap={Online=[B@320c65a}))
+[D][2024-09-24 +8.0 10:28:04.966][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Res@e123bcb3
+labels {
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  gift_infos {
+    goods_id: 50
+    price: 599
+  }
+  goods_id: 8
+  name: "\346\231\256\351\200\232\346\240\207\347\255\276"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240827/4e5f5198-f07a-43bb-97e9-4e8e3226f9c9.png"
+}
+labels {
+  gift_infos {
+    goods_id: 17
+    price: 199
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  goods_id: 7
+  name: "event"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240820/70231f9c-1389-4b08-882a-28de5236b15b.png"
+}
+msg: "SUCCESS"
+[D][2024-09-24 +8.0 10:28:04.982][18571, 180][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallUserBackPack$Res@7bca4
+[D][2024-09-24 +8.0 10:28:05.353][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.recharge.proto.RechargeConfig$Req@8a59fac4
+resource_type: 1
+uid: 10000107
+[D][2024-09-24 +8.0 10:28:05.499][18571, 180][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.recharge.proto.RechargeConfig$Res@e8fbd078
+msg: "SUCCESS"
+recharge_config_info {
+  currency: "USD"
+  name: "1599 Diamantes"
+  original_price_description: "1999"
+  price: 2799
+  price_format: "$27.99"
+  purchase_limit: -1
+  recharge_config_channel {
+    center_logo: "https://p-cdn.squidfun.com/squid/admin/20240620/2d061dbb-ab7e-4ef9-8554-c126a4668628.jpeg"
+    channel: "payermax_A34"
+    discount_description: "\350\277\231\346\230\257\344\270\200\344\270\252\346\212\230\346\211\243\346\217\217\350\277\260"
+    gift_resource_amount: 0
+    left_logo: "https://p-cdn.squidfun.com/squid/admin/20240620/e03b5f4b-03fb-4a84-a007-f47f6f8cf4ff.jpeg"
+    price_format: "$27.99"
+    sku: "acoin1"
+  }
+  recharge_config_channel {
+    center_logo: "https://p-cdn.squidfun.com/squid/admin/20240906/6a3e9108-3172-44d6-be9f-5e87404a1be6.png"
+    channel: "IAB"
+    gift_resource_amount: 0
+    left_logo: "https://p-cdn.squidfun.com/squid/admin/20240906/c1e93d46-27f5-4094-8538-e3bbd79658f3.png"
+    price_format: "$27.99"
+    sku: "scope.zs.1.7"
+  }
+  recharge_config_id: 105
+  recharge_gift {
+    gift_amount: 0
+  }
+  resource_amount: 1599
+}
+[D][2024-09-24 +8.0 10:28:05.673][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.recommend.proto.RecommendUserFilterConditions$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:05.685][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.recommend.proto.RecommendUserList$Req@c4c668f1
+page_no: 1
+[D][2024-09-24 +8.0 10:28:05.824][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.recommend.proto.RecommendUserList$Res@c7568581
+msg: "SUCCESS"
+[D][2024-09-24 +8.0 10:28:05.827][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.recommend.proto.RecommendUserList$Req@c4c66926
+list_type: 1
+page_no: 1
+[D][2024-09-24 +8.0 10:28:05.843][18571, 180][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.recommend.proto.RecommendUserFilterConditions$Res@84f1068f
+country_count {
+  code: "CN"
+  name: "\344\270\255\345\233\275\345\244\247\351\231\206"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_cn.webp"
+}
+country_count {
+  code: "PK"
+  name: "\345\267\264\345\237\272\346\226\257\345\235\246"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_pk.webp"
+}
+country_count {
+  code: "IN"
+  name: "\345\215\260\345\272\246"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_in.webp"
+}
+country_count {
+  code: "US"
+  name: "\347\276\216\345\233\275"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_us.webp"
+}
+country_count {
+  code: "RU"
+  name: "\344\277\204\347\275\227\346\226\257"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_ru.webp"
+}
+country_count {
+  code: "UA"
+  name: "\344\271\214\345\205\213\345\205\260"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_ua.webp"
+}
+country_count {
+  code: "BR"
+  name: "\345\267\264\350\245\277"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_br.webp"
+}
+country_count {
+  code: "TR"
+  name: "\345\234\237\350\200\263\345\205\266"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_tr.webp"
+}
+country_count {
+  code: "MY"
+  name: "\351\251\254\346\235\245\350\245\277\344\272\232"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_my.webp"
+}
+country_count {
+  code: "ID"
+  name: "\345\215\260\345\260\274"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_id.webp"
+}
+country_count {
+  code: "VN"
+  name: "\350\266\212\345\215\227"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_vn.webp"
+}
+country_count {
+  code: "SA"
+  name: "\346\262\231\347\211\271\351\230\277\346\213\211\344\274\257"
+  url: "https://p-cdn.squidfun.com/squid/admin/flags/pp_main_sa.webp"
+}
+language_count {
+  code: "en-US"
+  name: "\350\213\261\346\226\207"
+}
+language_count {
+  code: "hi-IN"
+  name: "\345\215\260\345\234\260\350\257\255"
+}
+language_count {
+  code: "es-ES"
+  name: "\350\245\277\347\217\255\347\211\231\350\257\255"
+}
+language_count {
+  code: "tr-TR"
+  name: "\345\234\237\350\200\263\345\205\266\350\257\255"
+}
+language_count {
+  code: "zh-CN"
+  name: "\347\256\200\344\275\223\344\270\255\346\226\207"
+}
+max_price: 500
+max_score: 5
+min_price: 50
+min_score: 1
+msg: "SUCCESS"
+price_step: 50
+score_step: 1
+[D][2024-09-24 +8.0 10:28:05.970][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.recommend.proto.RecommendUserList$Res@66c56771
+msg: "SUCCESS"
+user_infos {
+  avatar: "https://p-cdn.camchatworld.com/squid/avatar/10000119/20240923-ffb6e693-9bd5-4463-8755-98a2082af8fa.jpg"
+  country: "CN"
+  gender: 2
+  uid: 10000119
+  username: "give him"
+  verified: 1
+}
+user_infos {
+  avatar: "https://p-cdn.squidfun.com/squid/avatar/10000099/20240808-8173f2d6-2f1b-407a-9456-fbe464829d5b.jpg"
+  country: "CN"
+  gender: 2
+  uid: 10000099
+  username: "LULU"
+}
+user_infos {
+  avatar: "https://p-cdn.squidfun.com/squid/avatar/10000120/20240906-417a52a1-01fa-4b9d-a0c0-6f3ed057079f.jpeg"
+  country: "CN"
+  gender: 2
+  uid: 10000120
+  username: "Magic"
+  verified: 1
+}
+user_infos {
+  avatar: "https://p-cdn.squidfun.com/squid/avatar/10000101/20240819-45b228f2-f812-4995-8f2d-bf9ebde6acd1.jpg"
+  country: "CN"
+  gender: 2
+  uid: 10000101
+  username: "merci"
+}
+user_infos {
+  avatar: "https://p-cdn.squidfun.com/squid/avatar/10000052/20240905-33093737-5a13-4fbc-8deb-86db2196e9f0.jpeg"
+  country: "CN"
+  gender: 2
+  uid: 10000052
+  username: "skinny"
+  verified: 1
+}
+user_infos {
+  avatar: "https://p-cdn.squidfun.com/squid/avatar/10000096/20240717-6c15cc2d-5a85-42c3-910b-5faee36200a2.jpeg"
+  country: "CA"
+  gender: 2
+  uid: 10000096
+  username: "lalala"
+}
+user_infos {
+  avatar: "https://p-cdn.squidfun.com/squid/avatar/10000118/20240904-ff4cd88e-8ec1-4736-9610-966bb8817d21.jpg"
+  country: "US"
+  gender: 2
+  uid: 10000118
+  username: "More"
+  verified: 1
+}
+[D][2024-09-24 +8.0 10:28:06.250][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.util.proto.UserMyInfo$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:06.391][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.util.proto.UserMyInfo$Res@2660cfef
+avatar: "https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg"
+bind_infos {
+  bind_key: "20240426110437536943a9102e3b7739e90b6507bd3f07012c04c068cf2f6b"
+  bind_type: 22
+}
+bind_infos {
+  bind_key: "guoyanggit@gmail.com"
+  bind_type: 15
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008613613469062"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+birthday: 1143107511000
+call_price: 50
+country: "CN"
+diamond: 882273
+fans_count: 1
+follow_count: 3
+gender: 1
+interest: "8"
+point: 211352
+profile_completion: 100
+signature: "\344\275\240\345\271\262\345\225\212"
+skill_languages: "zh-CN"
+uid: 10000107
+username: "\347\273\203\350\213\261\351\233\204"
+[D][2024-09-24 +8.0 10:28:07.056][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.task.proto.TaskSign$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:07.231][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.task.proto.TaskSign$Res@a08308f9
+sign_info {
+  count: 20
+  other_param: "31"
+  reward_type: 1
+  time: 0
+}
+[E][2024-09-24 +8.0 10:28:07.235][18571, 2*][IMUserRepository$login$1$3$1][com.spark.mvvm.repository.IMUserRepository$login$1$3$1, emit, 184][IMReceiveMessageListener event: ReceiveNewMessage(message=IMAssetRefreshMessage(uid=10000107, assetType=1, assetAvailable=882293))
+[E][2024-09-24 +8.0 10:28:07.449][18571, 2*][IMUserRepository$login$1$2$1][com.spark.mvvm.repository.IMUserRepository$login$1$2$1, emit, 146][IMConversationListener event: ConversationChanged(conversationList=[IMConversation(type=1, conversationID=c2c_10002, userID=10002, groupID=, showName=SystermBack, faceUrl=, unreadCount=0, lastMessage=IMAssetRefreshMessage(uid=10000107, assetType=1, assetAvailable=882293), isPinned=false, orderKey=328, customData=)])
+[E][2024-09-24 +8.0 10:28:07.486][18571, 2*][IMUserRepository$clearConversationUnreadCount$1$2][com.spark.mvvm.repository.IMUserRepository$clearConversationUnreadCount$1$2, emit, 327][clearConversationUnreadCount success: true
+[E][2024-09-24 +8.0 10:28:07.900][18571, 2*][IMUserRepository$login$1$2$1][com.spark.mvvm.repository.IMUserRepository$login$1$2$1, emit, 146][IMConversationListener event: ConversationChanged(conversationList=[IMConversation(type=1, conversationID=c2c_10002, userID=10002, groupID=, showName=SystermBack, faceUrl=, unreadCount=0, lastMessage=IMAssetRefreshMessage(uid=10000107, assetType=1, assetAvailable=882293), isPinned=false, orderKey=328, customData=)])
+[D][2024-09-24 +8.0 10:28:08.645][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.util.proto.UserMyInfo$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:08.781][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.util.proto.UserMyInfo$Res@ea4b9f43
+avatar: "https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg"
+bind_infos {
+  bind_key: "20240426110437536943a9102e3b7739e90b6507bd3f07012c04c068cf2f6b"
+  bind_type: 22
+}
+bind_infos {
+  bind_key: "guoyanggit@gmail.com"
+  bind_type: 15
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008613613469062"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+birthday: 1143107511000
+call_price: 50
+country: "CN"
+diamond: 882293
+fans_count: 1
+follow_count: 3
+gender: 1
+interest: "8"
+point: 211352
+profile_completion: 100
+signature: "\344\275\240\345\271\262\345\225\212"
+skill_languages: "zh-CN"
+uid: 10000107
+username: "\347\273\203\350\213\261\351\233\204"
+[D][2024-09-24 +8.0 10:28:10.545][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.task.proto.TaskMyList$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:10.694][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.task.proto.TaskMyList$Res@33475797
+code: -1
+msg: "\347\263\273\347\273\237\345\274\202\345\270\270(-1)"
+[D][2024-09-24 +8.0 10:28:13.227][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.util.proto.UserMyInfo$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:13.372][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.util.proto.UserMyInfo$Res@ea4b9f43
+avatar: "https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg"
+bind_infos {
+  bind_key: "20240426110437536943a9102e3b7739e90b6507bd3f07012c04c068cf2f6b"
+  bind_type: 22
+}
+bind_infos {
+  bind_key: "guoyanggit@gmail.com"
+  bind_type: 15
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008613613469062"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+birthday: 1143107511000
+call_price: 50
+country: "CN"
+diamond: 882293
+fans_count: 1
+follow_count: 3
+gender: 1
+interest: "8"
+point: 211352
+profile_completion: 100
+signature: "\344\275\240\345\271\262\345\225\212"
+skill_languages: "zh-CN"
+uid: 10000107
+username: "\347\273\203\350\213\261\351\233\204"
+[D][2024-09-24 +8.0 10:28:15.431][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.task.proto.TaskMyList$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:15.563][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.task.proto.TaskMyList$Res@33475797
+code: -1
+msg: "\347\263\273\347\273\237\345\274\202\345\270\270(-1)"
+[D][2024-09-24 +8.0 10:28:21.116][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.util.proto.UserMyInfo$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:21.247][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.util.proto.UserMyInfo$Res@ea4b9f43
+avatar: "https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg"
+bind_infos {
+  bind_key: "20240426110437536943a9102e3b7739e90b6507bd3f07012c04c068cf2f6b"
+  bind_type: 22
+}
+bind_infos {
+  bind_key: "guoyanggit@gmail.com"
+  bind_type: 15
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008613613469062"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+birthday: 1143107511000
+call_price: 50
+country: "CN"
+diamond: 882293
+fans_count: 1
+follow_count: 3
+gender: 1
+interest: "8"
+point: 211352
+profile_completion: 100
+signature: "\344\275\240\345\271\262\345\225\212"
+skill_languages: "zh-CN"
+uid: 10000107
+username: "\347\273\203\350\213\261\351\233\204"
+[D][2024-09-24 +8.0 10:28:23.307][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.task.proto.TaskMyList$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:23.440][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.task.proto.TaskMyList$Res@33475797
+code: -1
+msg: "\347\263\273\347\273\237\345\274\202\345\270\270(-1)"
+[D][2024-09-24 +8.0 10:28:25.075][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.task.proto.TaskMyList$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:25.205][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.task.proto.TaskMyList$Res@33475797
+code: -1
+msg: "\347\263\273\347\273\237\345\274\202\345\270\270(-1)"
+[D][2024-09-24 +8.0 10:28:26.082][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.util.proto.UserMyInfo$Req@7bc6f
+[D][2024-09-24 +8.0 10:28:26.224][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.util.proto.UserMyInfo$Res@ea4b9f43
+avatar: "https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg"
+bind_infos {
+  bind_key: "20240426110437536943a9102e3b7739e90b6507bd3f07012c04c068cf2f6b"
+  bind_type: 22
+}
+bind_infos {
+  bind_key: "guoyanggit@gmail.com"
+  bind_type: 15
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008613613469062"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+birthday: 1143107511000
+call_price: 50
+country: "CN"
+diamond: 882293
+fans_count: 1
+follow_count: 3
+gender: 1
+interest: "8"
+point: 211352
+profile_completion: 100
+signature: "\344\275\240\345\271\262\345\225\212"
+skill_languages: "zh-CN"
+uid: 10000107
+username: "\347\273\203\350\213\261\351\233\204"
+[D][2024-09-24 +8.0 10:28:28.142][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.util.proto.UserProfileInfo$Req@1f9efb16
+uid: 10000107
+[D][2024-09-24 +8.0 10:28:28.352][18571, 200][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.util.proto.UserProfileInfo$Res@34b8620d
+age: 18
+avatar: "https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg"
+birthday: 1143107511000
+call_price: 50
+completion_degree: 100
+country: "CN"
+evaluate_label_infos {
+  count: 1
+  label_id: 5011
+}
+evaluate_label_infos {
+  count: 1
+  label_id: 5013
+}
+evaluate_label_infos {
+  count: 1
+  label_id: 5001
+}
+evaluate_score: "5.0"
+fans_count: 1
+follow_count: 3
+gender: 1
+gift_wall_infos {
+  count: 1
+  goods_id: 48
+}
+gift_wall_infos {
+  count: 34
+  goods_id: 6
+}
+interest: "8"
+media_infos {
+  id: "14d01beacc1189f15276c3988a6c2a7668f5ba56eac2c1131196bca752bba033"
+  real_url: "https://p-cdn.camchatworld.com/squid/album/commonpic/10000107/20240923/f6182ead-febe-4a2c-b553-4c102637ae60.jpg"
+  review_status: 1
+  type: 1
+}
+media_infos {
+  id: "5b4c3f044c56ed226622dd8b107525fe68f5ba56eac2c1131196bca752bba033"
+  real_url: "https://p-cdn.camchatworld.com/squid/album/commonpic/10000107/20240923/53cb8d87-f01c-4eed-951e-b0901e134e4a.jpeg"
+  review_status: 1
+  type: 1
+}
+media_infos {
+  id: "e1ed012be673f5d01b87e2b6240c975668f5ba56eac2c1131196bca752bba033"
+  real_url: "https://p-cdn.camchatworld.com/squid/album/commonpic/10000107/20240923/6ec10173-0db3-4b46-9871-1d099e2b90f5.jpg"
+  review_status: 1
+  type: 1
+}
+media_infos {
+  cover_url: "https://p-cdn.camchatworld.com/squid/album/commoncover/10000107/20240923/66673458-7874-4532-8f60-eef993f4ec02.jpg"
+  id: "2a1643b15300ab3b471d381f6a1308ea68f5ba56eac2c1131196bca752bba033"
+  real_url: "https://p-cdn.camchatworld.com/squid/album/commonvdo/10000107/20240923/04d3b984-4b1c-46b2-b762-2c3a97928584.mp4"
+  review_status: 2
+  type: 2
+}
+media_infos {
+  cover_url: "https://p-cdn.camchatworld.com/squid/album/commoncover/10000107/20240923/e258cead-c7fd-4122-8b2c-f945ccfef7ea.jpg"
+  id: "cbe88dd8fd97e39afc96ca3022efb11168f5ba56eac2c1131196bca752bba033"
+  real_url: "https://p-cdn.camchatworld.com/squid/album/commonvdo/10000107/20240923/96a36d27-5c1f-4506-8a2f-c6414b196e3f.mp4"
+  review_status: 2
+  type: 2
+}
+media_infos {
+  cover_url: "https://p-cdn.camchatworld.com/squid/album/commoncover/10000107/20240923/4db6e723-32ac-44a4-bdf9-5d7099a78cb6.jpg"
+  id: "abc74784c88bb38159e505631fd6aabb68f5ba56eac2c1131196bca752bba033"
+  real_url: "https://p-cdn.camchatworld.com/squid/album/commonvdo/10000107/20240923/5896c60a-ece0-4aa9-89c0-797116143734.mp4"
+  review_status: 2
+  type: 2
+}
+signature: "\344\275\240\345\271\262\345\225\212"
+skill_languages: "zh-CN"
+uid: 10000107
+username: "\347\273\203\350\213\261\351\233\204"
+[D][2024-09-24 +8.0 10:28:31.989][18571, 214][ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1][com.spark.mvvm.ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1, intercept, 1082][request url: https://p-cdn.camchatworld.com/squid/album/commoncover/10000107/20240923/66673458-7874-4532-8f60-eef993f4ec02.jpg
+[D][2024-09-24 +8.0 10:28:32.012][18571, 216][ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1][com.spark.mvvm.ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1, intercept, 1082][request url: https://p-cdn.camchatworld.com/squid/album/commoncover/10000107/20240923/e258cead-c7fd-4122-8b2c-f945ccfef7ea.jpg
+[D][2024-09-24 +8.0 10:28:33.041][18571, 214][ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1][com.spark.mvvm.ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1, intercept, 1087][response code: 200
+[D][2024-09-24 +8.0 10:28:33.102][18571, 216][ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1][com.spark.mvvm.ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1, intercept, 1087][response code: 200
+[D][2024-09-24 +8.0 10:28:35.513][18571, 216][ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1][com.spark.mvvm.ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1, intercept, 1082][request url: https://p-cdn.camchatworld.com/squid/album/commoncover/10000107/20240923/4db6e723-32ac-44a4-bdf9-5d7099a78cb6.jpg
+[D][2024-09-24 +8.0 10:28:35.979][18571, 216][ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1][com.spark.mvvm.ImageLoadInitTask$run$2$registerComponents$$inlined$-addInterceptor$1, intercept, 1087][response code: 200
+[D][2024-09-24 +8.0 10:31:04.845][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallUserBackPack$Req@7bc6f
+[D][2024-09-24 +8.0 10:31:04.860][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Req@7bca4
+scene: 1
+[D][2024-09-24 +8.0 10:31:05.178][18571, 298][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallUserBackPack$Res@7bca4
+[D][2024-09-24 +8.0 10:31:05.194][18571, 299][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Res@e123bcb3
+labels {
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  gift_infos {
+    goods_id: 50
+    price: 599
+  }
+  goods_id: 8
+  name: "\346\231\256\351\200\232\346\240\207\347\255\276"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240827/4e5f5198-f07a-43bb-97e9-4e8e3226f9c9.png"
+}
+labels {
+  gift_infos {
+    goods_id: 17
+    price: 199
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  goods_id: 7
+  name: "event"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240820/70231f9c-1389-4b08-882a-28de5236b15b.png"
+}
+msg: "SUCCESS"
+[D][2024-09-24 +8.0 10:34:04.845][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallUserBackPack$Req@7bc6f
+[D][2024-09-24 +8.0 10:34:04.859][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Req@7bca4
+scene: 1
+[D][2024-09-24 +8.0 10:34:05.159][18571, 305][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Res@e123bcb3
+labels {
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  gift_infos {
+    goods_id: 50
+    price: 599
+  }
+  goods_id: 8
+  name: "\346\231\256\351\200\232\346\240\207\347\255\276"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240827/4e5f5198-f07a-43bb-97e9-4e8e3226f9c9.png"
+}
+labels {
+  gift_infos {
+    goods_id: 17
+    price: 199
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  goods_id: 7
+  name: "event"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240820/70231f9c-1389-4b08-882a-28de5236b15b.png"
+}
+msg: "SUCCESS"
+[D][2024-09-24 +8.0 10:34:05.236][18571, 304][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallUserBackPack$Res@7bca4
+[E][2024-09-24 +8.0 10:35:27.243][18571, 2*][IMUserRepository$login$1$1$1][com.spark.mvvm.repository.IMUserRepository$login$1$1$1, emit, 131][IMSDKListener event: UserInfoChanged(userInfoList=[IMUserInfo(userID=10000115, nickname=make1, faceUrl=https://p-cdn.squidfun.com/squid/avatar/10000115/20240903-5e5ee169-edb3-4670-b839-fde87de436ce.jpeg, selfSignature=, gender=1, level=1, birthday=19960903, status=1, customHashMap={Online=[B@e6d87f2})])
+[D][2024-09-24 +8.0 10:37:04.848][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallUserBackPack$Req@7bc6f
+[D][2024-09-24 +8.0 10:37:04.863][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Req@7bca4
+scene: 1
+[D][2024-09-24 +8.0 10:37:05.230][18571, 308][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Res@e123bcb3
+labels {
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  gift_infos {
+    goods_id: 50
+    price: 599
+  }
+  goods_id: 8
+  name: "\346\231\256\351\200\232\346\240\207\347\255\276"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240827/4e5f5198-f07a-43bb-97e9-4e8e3226f9c9.png"
+}
+labels {
+  gift_infos {
+    goods_id: 17
+    price: 199
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  goods_id: 7
+  name: "event"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240820/70231f9c-1389-4b08-882a-28de5236b15b.png"
+}
+msg: "SUCCESS"
+[D][2024-09-24 +8.0 10:37:05.309][18571, 307][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallUserBackPack$Res@7bca4
+[E][2024-09-24 +8.0 10:38:06.780][18571, 2*][IMUserRepository$login$1$1$1][com.spark.mvvm.repository.IMUserRepository$login$1$1$1, emit, 131][IMSDKListener event: Connecting
+[E][2024-09-24 +8.0 10:38:06.804][18571, 2*][IMUserRepository$login$1$1$1][com.spark.mvvm.repository.IMUserRepository$login$1$1$1, emit, 131][IMSDKListener event: ConnectSuccess
+[E][2024-09-24 +8.0 10:38:06.901][18571, 2*][IMUserRepository$login$1$2$1][com.spark.mvvm.repository.IMUserRepository$login$1$2$1, emit, 146][IMConversationListener event: SyncServerStart
+[E][2024-09-24 +8.0 10:38:07.096][18571, 2*][IMUserRepository$login$1$1$1][com.spark.mvvm.repository.IMUserRepository$login$1$1$1, emit, 131][IMSDKListener event: SelfInfoUpdated(userInfo=IMUserInfo(userID=10000107, nickname=练英雄, faceUrl=https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg, selfSignature=你干啊, gender=1, level=1, birthday=20060323, status=1, customHashMap={Online=[B@af2b1e3}))
+[E][2024-09-24 +8.0 10:38:07.250][18571, 2*][IMUserRepository$login$1$2$1][com.spark.mvvm.repository.IMUserRepository$login$1$2$1, emit, 146][IMConversationListener event: SyncServerFinish
+[E][2024-09-24 +8.0 10:38:07.529][18571, 2*][IMUserRepository$login$1$2$1][com.spark.mvvm.repository.IMUserRepository$login$1$2$1, emit, 146][IMConversationListener event: ConversationChanged(conversationList=[IMConversation(type=1, conversationID=c2c_10002, userID=10002, groupID=, showName=SystermBack, faceUrl=, unreadCount=0, lastMessage=IMAssetRefreshMessage(uid=10000107, assetType=1, assetAvailable=882293), isPinned=false, orderKey=329, customData=)])
+[D][2024-09-24 +8.0 10:40:04.850][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallUserBackPack$Req@7bc6f
+[D][2024-09-24 +8.0 10:40:04.863][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Req@7bca4
+scene: 1
+[D][2024-09-24 +8.0 10:40:05.156][18571, 310][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallUserBackPack$Res@7bca4
+[D][2024-09-24 +8.0 10:40:05.191][18571, 311][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Res@e123bcb3
+labels {
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  gift_infos {
+    goods_id: 50
+    price: 599
+  }
+  goods_id: 8
+  name: "\346\231\256\351\200\232\346\240\207\347\255\276"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240827/4e5f5198-f07a-43bb-97e9-4e8e3226f9c9.png"
+}
+labels {
+  gift_infos {
+    goods_id: 17
+    price: 199
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  goods_id: 7
+  name: "event"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240820/70231f9c-1389-4b08-882a-28de5236b15b.png"
+}
+msg: "SUCCESS"
+[D][2024-09-24 +8.0 10:43:04.853][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallUserBackPack$Req@7bc6f
+[D][2024-09-24 +8.0 10:43:04.864][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Req@7bca4
+scene: 1
+[D][2024-09-24 +8.0 10:43:05.257][18571, 313][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallUserBackPack$Res@7bca4
+[D][2024-09-24 +8.0 10:43:05.384][18571, 314][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Res@e123bcb3
+labels {
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  gift_infos {
+    goods_id: 50
+    price: 599
+  }
+  goods_id: 8
+  name: "\346\231\256\351\200\232\346\240\207\347\255\276"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240827/4e5f5198-f07a-43bb-97e9-4e8e3226f9c9.png"
+}
+labels {
+  gift_infos {
+    goods_id: 17
+    price: 199
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  goods_id: 7
+  name: "event"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240820/70231f9c-1389-4b08-882a-28de5236b15b.png"
+}
+msg: "SUCCESS"
+[D][2024-09-24 +8.0 10:46:04.854][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallUserBackPack$Req@7bc6f
+[D][2024-09-24 +8.0 10:46:04.866][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Req@7bca4
+scene: 1
+[D][2024-09-24 +8.0 10:46:05.122][18571, 316][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallUserBackPack$Res@7bca4
+[D][2024-09-24 +8.0 10:46:05.133][18571, 317][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Res@e123bcb3
+labels {
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  gift_infos {
+    goods_id: 50
+    price: 599
+  }
+  goods_id: 8
+  name: "\346\231\256\351\200\232\346\240\207\347\255\276"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240827/4e5f5198-f07a-43bb-97e9-4e8e3226f9c9.png"
+}
+labels {
+  gift_infos {
+    goods_id: 17
+    price: 199
+  }
+  gift_infos {
+    goods_id: 48
+    price: 199
+  }
+  gift_infos {
+    goods_id: 49
+    price: 5999
+  }
+  gift_infos {
+    goods_id: 3
+    price: 99999
+  }
+  gift_infos {
+    goods_id: 6
+    price: 100
+  }
+  goods_id: 7
+  name: "event"
+  url: "https://p-cdn.squidfun.com/squid/mall/20240820/70231f9c-1389-4b08-882a-28de5236b15b.png"
+}
+msg: "SUCCESS"
+[D][2024-09-24 +8.0 10:46:08.758][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.util.proto.UserMyInfo$Req@7bc6f
+[D][2024-09-24 +8.0 10:46:08.958][18571, 317][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.util.proto.UserMyInfo$Res@ea4b9f43
+avatar: "https://p-cdn.camchatworld.com/squid/avatar/10000107/20240923-e9ddbb5c-a13f-4cfe-8fbd-102a9f624203.jpeg"
+bind_infos {
+  bind_key: "20240426110437536943a9102e3b7739e90b6507bd3f07012c04c068cf2f6b"
+  bind_type: 22
+}
+bind_infos {
+  bind_key: "guoyanggit@gmail.com"
+  bind_type: 15
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008613613469062"
+  bind_type: 1
+}
+bind_infos {
+  bind_key: "008617696051726"
+  bind_type: 1
+}
+birthday: 1143107511000
+call_price: 50
+country: "CN"
+diamond: 882293
+fans_count: 1
+follow_count: 3
+gender: 1
+interest: "8"
+point: 211352
+profile_completion: 100
+signature: "\344\275\240\345\271\262\345\225\212"
+skill_languages: "zh-CN"
+uid: 10000107
+username: "\347\273\203\350\213\261\351\233\204"
+[D][2024-09-24 +8.0 10:46:11.228][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.task.proto.TaskMyList$Req@7bc6f
+[D][2024-09-24 +8.0 10:46:11.456][18571, 317][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.task.proto.TaskMyList$Res@33475797
+code: -1
+msg: "\347\263\273\347\273\237\345\274\202\345\270\270(-1)"
+[D][2024-09-24 +8.0 10:49:04.857][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallUserBackPack$Req@7bc6f
+[D][2024-09-24 +8.0 10:49:04.869][18571, 2*][RxHttp ProtoConverter][, , 0][RequestBody: # com.spark.squid.mall.proto.MallLabelGiftIdList$Req@7bca4
+scene: 1
+[D][2024-09-24 +8.0 10:49:05.128][18571, 323][RxHttp ProtoConverter][, , 0][ResponseBody: # com.spark.squid.mall.proto.MallUserBackPack$Res@7bca4

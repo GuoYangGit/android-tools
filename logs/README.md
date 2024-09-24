@@ -5,3 +5,9 @@
 ```shell
 python3 decode_log xxx.xlog
 ```
+
+## 生成私钥和公钥
+- 生成私钥
+```shell
+python3 gen_key.py
+```
